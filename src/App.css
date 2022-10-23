@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+.App > div {
+  min-width: 27rem;
+  flex: 1;
+  border: solid 1px rgb(177, 177, 177);
+  padding: 10px;
+}
+ul, li{
+  margin: 0;
+  padding: 1px;
+  list-style-type: none;
+}
+.user-list li{
+cursor: pointer;
+
+}
+.user-list li:hover{
+  color: #4285F4;
+  border: 1px solid;
+  border-right-style: none;
+
+}
+
+h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 1rem;
+}
